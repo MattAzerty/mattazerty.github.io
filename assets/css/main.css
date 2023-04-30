@@ -5992,6 +5992,257 @@ input, select, textarea {
 			object-position: right;
 		}
 
+		/* Spotlight (style33) */
+
+        	.spotlight.style33 {
+        		padding: 7rem 7rem 5rem 7rem ;
+        		-moz-align-items: center;
+        		-webkit-align-items: center;
+        		-ms-align-items: center;
+        		align-items: center;
+        		display: -moz-flex;
+        		display: -webkit-flex;
+        		display: -ms-flex;
+        		display: flex;
+        		-moz-flex-direction: row-reverse;
+        		-webkit-flex-direction: row-reverse;
+        		-ms-flex-direction: row-reverse;
+        		flex-direction: row-reverse;
+        		-moz-justify-content: center;
+        		-webkit-justify-content: center;
+        		-ms-justify-content: center;
+        		justify-content: center;
+        		position: relative;
+        		overflow-x: hidden;
+        		text-align: left;
+        	}
+
+        		.spotlight.style33 .content {
+        			width: 44.5rem;
+        			max-width: 100%;
+        		}
+
+        		.spotlight.style33 .image {
+        			-moz-flex-grow: 0;
+        			-webkit-flex-grow: 0;
+        			-ms-flex-grow: 0;
+        			flex-grow: 0;
+        			-moz-flex-shrink: 0;
+        			-webkit-flex-shrink: 0;
+        			-ms-flex-shrink: 0;
+        			flex-shrink: 0;
+        			border-radius: 0;
+        			border: solid 1px;
+        			width: 13rem;
+        			height: 23.11111rem;
+        			margin-top: 2.5rem;
+        			margin-bottom: 5rem;
+        			margin-left: 10rem;
+        			margin-right: 10rem;
+        			transform: rotate(90deg);
+        		}
+
+        			.spotlight.style33 .image img {
+        				-moz-object-fit: cover;
+        				-webkit-object-fit: cover;
+        				-ms-object-fit: cover;
+        				object-fit: cover;
+        				-moz-object-position: center;
+        				-webkit-object-position: center;
+        				-ms-object-position: center;
+        				object-position: center;
+        				display: block;
+        				width: 100%;
+        				height: 100%;
+        				border-radius: 0;
+        			}
+
+        			.spotlight.style33 .image:before {
+        				content: '';
+        				display: block;
+        				background-position: center;
+        				background-repeat: no-repeat;
+        				border: solid 1px;
+        				border-bottom: 0;
+        			}
+
+        			.spotlight.style33 .image:after {
+        				content: '';
+        				display: block;
+        				background-position: center;
+        				background-repeat: no-repeat;
+        				border: solid 1px;
+        				border-top: 0;
+        			}
+
+        			.spotlight.style33 .image:before {
+        				height: 2.5rem;
+        				background-size: 64px 32px;
+        				margin-top: -2.5rem;
+        				border-radius: 1rem 1rem 0 0;
+        			}
+
+        			.spotlight.style33 .image:after {
+        				height: 3rem;
+        				background-size: 64px 32px;
+        				margin-bottom: -3rem;
+        				border-radius: 0 0 1rem 1rem;
+        			}
+
+        		@media screen and (max-width: 1680px) {
+
+        			.spotlight.style33 {
+        				padding: 5rem 5rem 3rem 5rem ;
+        			}
+
+        		}
+
+        		@media screen and (max-width: 1280px) {
+
+        			.spotlight.style33 {
+        				padding: 4rem 4rem 2rem 4rem ;
+        			}
+
+        		}
+
+        		@media screen and (max-width: 980px) {
+
+        			.spotlight.style33 {
+        				padding: 3.75rem 3rem 1.75rem 3rem ;
+        			}
+
+        				.spotlight.style33 .image {
+        					width: 11.375rem;
+        					height: 20.22222rem;
+        					margin-top: 2.1875rem;
+        					margin-bottom: 4.625rem;
+        				}
+
+        					.spotlight.style33 .image:before {
+        						height: 2.1875rem;
+        						background-size: 56px 28px;
+        						margin-top: -2.1875rem;
+        						border-radius: 0.875rem 0.875rem 0 0;
+        					}
+
+        					.spotlight.style33 .image:after {
+        						height: 2.625rem;
+        						background-size: 56px 28px;
+        						margin-bottom: -2.625rem;
+        						border-radius: 0 0 0.875rem 0.875rem;
+        					}
+
+        		}
+
+        		@media screen and (max-width: 736px) {
+
+        			.spotlight.style33 {
+        				padding: 2.5rem 2rem 0.5rem 2rem ;
+        				-moz-align-items: -moz-flex-start;
+        				-webkit-align-items: -webkit-flex-start;
+        				-ms-align-items: -ms-flex-start;
+        				align-items: flex-start;
+        			}
+
+        				.spotlight.style33 .image {
+        					width: 8.125rem;
+        					height: 14.44444rem;
+        					margin-top: 1.5625rem;
+        					margin-bottom: 3.875rem;
+        				}
+
+        					.spotlight.style33 .image:before {
+        						height: 1.5625rem;
+        						background-size: 40px 20px;
+        						margin-top: -1.5625rem;
+        						border-radius: 0.625rem 0.625rem 0 0;
+        					}
+
+        					.spotlight.style33 .image:after {
+        						height: 1.875rem;
+        						background-size: 40px 20px;
+        						margin-bottom: -1.875rem;
+        						border-radius: 0 0 0.625rem 0.625rem;
+        					}
+
+        		}
+
+        		@media screen and (orientation: portrait) {
+
+        			.spotlight.style33 {
+        				-moz-align-items: center;
+        				-webkit-align-items: center;
+        				-ms-align-items: center;
+        				align-items: center;
+        				-moz-flex-direction: column-reverse;
+        				-webkit-flex-direction: column-reverse;
+        				-ms-flex-direction: column-reverse;
+        				flex-direction: column-reverse;
+        				text-align: center !important;
+        			}
+
+        				.spotlight.style33 .content {
+        					width: 34rem;
+        					max-width: 100%;
+        				}
+
+        				.spotlight.style33 .image {
+        					margin-right: 0;
+        					margin-left: 0;
+        				}
+
+        		}
+
+        		.spotlight.style33.orient-left {
+        			-moz-flex-direction: row;
+        			-webkit-flex-direction: row;
+        			-ms-flex-direction: row;
+        			flex-direction: row;
+        		}
+
+        			.spotlight.style33.orient-left .image {
+        				margin-right: 0;
+        				margin-left: 3.5rem;
+        			}
+
+        			@media screen and (orientation: portrait) {
+
+        				.spotlight.style33.orient-left {
+        					-moz-flex-direction: column-reverse;
+        					-webkit-flex-direction: column-reverse;
+        					-ms-flex-direction: column-reverse;
+        					flex-direction: column-reverse;
+        				}
+
+        					.spotlight.style33.orient-left .image {
+        						margin-right: 0;
+        						margin-left: 0;
+        					}
+
+        			}
+
+        		.spotlight.style33.content-align-center {
+        			text-align: center;
+        		}
+
+        		.spotlight.style33.content-align-right {
+        			text-align: right;
+        		}
+
+        		.spotlight.style33.image-position-left .image img {
+        			-moz-object-position: left;
+        			-webkit-object-position: left;
+        			-ms-object-position: left;
+        			object-position: left;
+        		}
+
+        		.spotlight.style33.image-position-right .image img {
+        			-moz-object-position: right;
+        			-webkit-object-position: right;
+        			-ms-object-position: right;
+        			object-position: right;
+        		}
+
 /* Spotlight (style4) */
 
 	.spotlight.style4 {
@@ -6393,6 +6644,52 @@ input, select, textarea {
 	.spotlight.style3.invert.android .image:after {
 		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='6' y='4' width='52' height='24' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
 	}
+
+		.spotlight.style33 .image {
+    		border-color: rgba(0, 0, 0, 0.2);
+    		background-color: rgba(0, 0, 0, 0.2);
+    		border-width: 0;
+    	}
+
+    		.spotlight.style33 .image:before {
+    			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: rgba(0, 0, 0, 0.2)%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='11' y='12' width='42' height='8' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
+    			border-color: rgba(0, 0, 0, 0.2);
+    			width: 100%;
+    		}
+
+    		.spotlight.style33 .image:after {
+    			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Ecircle %7Bfill: transparent%3B stroke: rgba(0, 0, 0, 0.2)%3B stroke-width: 1px%3B %7D%3C/style%3E%3Ccircle cx='32' cy='16' r='14' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
+    			border-color: rgba(0, 0, 0, 0.2);
+    			width: 100%;
+    		}
+
+    	.spotlight.style33.android .image:after {
+    		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: rgba(0, 0, 0, 0.2)%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='6' y='4' width='52' height='24' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
+    	}
+
+    	.spotlight.style33.invert .image {
+    		border-color: white;
+    		background-color: white;
+    		border-width: 1px;
+    	}
+
+    		.spotlight.style33.invert .image:before {
+    			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='11' y='12' width='42' height='8' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
+    			border-color: white;
+    			width: calc(100% + 2px);
+    			margin-left: -1px;
+    		}
+
+    		.spotlight.style33.invert .image:after {
+    			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Ecircle %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Ccircle cx='32' cy='16' r='14' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
+    			border-color: white;
+    			width: calc(100% + 2px);
+    			margin-left: -1px;
+    		}
+
+    	.spotlight.style33.invert.android .image:after {
+    		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='6' y='4' width='52' height='24' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
+    	}
 
 /* Gallery (transitions) */
 

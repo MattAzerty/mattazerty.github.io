@@ -1,29 +1,35 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>MattAzerty GitHub</title>
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-	
-	<!-- Header HELLO WORLD-->
-			<header id="header">
-				<div class="content">
-					<h1><a href="#">Hello World!</a></h1>
-					<p><br />This page is a (responsive) presentation of some of my projects<br />
-					hosted on <a href="https://github.com/MattAzerty">GitHub</a> and other tech. <a href="#gallery" class="smooth-scroll-middle">experiments</a>.<br />
-					They are mostly mobile oriented.</p>
+<head>
+	<title>MattAzerty GitHub</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+<body class="is-preload">
 
-					<ul class="actions">
-						<li><a href="#repo" class="button large wide smooth-scroll">Get Started</a></li>
-					</ul>
-				</div>
-				<div class="image phone"><div class="inner"><img src="images/screen.jpg" alt="" /></div></div>
-			</header>
+<!-- Header HELLO WORLD -->
+<header id="header">
+	<div class="content">
+		<h1><a href="#">Hello World!</a></h1>
+		<p><br />This page is a (responsive) presentation of some of my projects<br />
+			hosted on <a href="https://github.com/MattAzerty">GitHub</a> and other tech. <a href="#gallery" class="smooth-scroll-middle">experiments</a>.<br />
+			They are mostly mobile oriented.</p>
+
+		<ul class="actions">
+			<li><a href="#repo" class="button large wide smooth-scroll">Get Started</a></li>
+		</ul>
+	</div>
+	<div class="image phone">
+		<div class="inner">
+			<img src="images/screen.jpg" alt="" />
+		</div>
+	</div>
+</header>
 
 	<!-- Repositories -->
 	<section class="banner style3 align-left" id="repo">
@@ -53,7 +59,7 @@
 				</ul>
 			</div>
 			<div class="image">
-				<img src="images/MaReu.gif" alt="" />
+				<img data-src="images/MaReu.gif" alt="" class="lazyload" />
 			</div>
 		</section>
 		<!-- Go4Lunch -->
@@ -69,7 +75,7 @@
 				</ul>
 			</div>
 			<div class="image">
-				<img src="images/Go4Lunch.gif" alt="" />
+				<img data-src="images/Go4Lunch.gif" alt="" class="lazyload" />
 			</div>
 		</section>
 		<!-- RealEstateManager-->
@@ -82,7 +88,7 @@
 				</ul>
 			</div>
 			<div class="image">
-				<img src="images/RE_vert.gif" alt="" id="remanager-gif"/>
+				<img data-src="images/RE_vert.gif" alt="" id="remanager-gif" class="lazyload" />
 			</div>
 		</section>
 		<!-- For pixel6a ratio-->
@@ -571,6 +577,14 @@
 
 		<!-- Note: Only needed for demo purposes. -->
 			<script src="assets/js/demo.js"></script>
+
+<!-- lazyload script -->
+<script src="assets/js/lazyload.min.js"></script>
+<script>
+		var lazyLoadInstance = new LazyLoad({
+			elements_selector: "img[data-src]",
+		});
+	</script>
 
 	</body>
 </html>

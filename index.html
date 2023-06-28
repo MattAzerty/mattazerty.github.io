@@ -49,19 +49,25 @@
 	</section>
 	<!-- Wrapper -->
 	<div id="wrapper" class="divided">
-		<!-- MaReu -->
-		<section class="spotlight style3 orient-right content-align-left image-position-center onscroll-image-fade-in" id="spotlight1">
+		<!-- LUMICOM-->
+		<section class="spotlight style3 orient-right content-align-left onscroll-image-fade-in" id="spotlight1">
 			<div class="content">
 				<h2><strong>Spotlight</strong> #1</h2>
-				<p>The <strong>MaReu</strong> app is a meeting management application. The user have the possibilities to add/delete meetings but also filter them by date or location. This is my first application made from scratch, it allowed me to practice the MVVM architecture and Data Binding.</p>
-				<ul class="actions stacked">
-					<li><a href="#mareu" class="button">Learn More</a></li>
-				</ul>
+				<p>The <strong>LUMICOM</strong> app is a mobile application developed using the Jetpack Compose library for creating a playable choose-your-own-adventure story (in development).</p>
+				<!--<ul class="actions stacked">
+					<li><a href="#lumicom" class="button">Learn More</a></li>
+				</ul>-->
 			</div>
 			<div class="image">
-				<img data-src="images/MaReu.gif" alt="" class="lazyload" />
+				<img data-src="images/LUMICOM.gif" alt="" id="lumicom-gif" class="lazyload" />
 			</div>
 		</section>
+		<!-- For pixel6a ratio-->
+		<style>
+					#spotlight1 .image {
+  					width: 16%;
+					}
+				</style>
 		<!-- Go4Lunch -->
 		<section class="spotlight style3 orient-left content-align-left image-position-center onscroll-image-fade-in" id="spotlight2">
 			<div class="content">
@@ -121,6 +127,20 @@
  					img.src = newSrc;
 					}
 				</script>
+		<!-- MaReu -->
+		<section class="spotlight style3 orient-left content-align-left image-position-center onscroll-image-fade-in" id="spotlight4">
+			<div class="content">
+				<h2><strong>Spotlight</strong> #4</h2>
+				<p>The <strong>MaReu</strong> app is a meeting management application. The user have the possibilities to add/delete meetings but also filter them by date or location. This is my first application made from scratch, it allowed me to practice the MVVM architecture and Data Binding.</p>
+				<ul class="actions stacked">
+					<li><a href="#mareu" class="button">Learn More</a></li>
+				</ul>
+			</div>
+			<div class="image">
+				<img data-src="images/MaReu.gif" alt="" class="lazyload" />
+			</div>
+		</section>
+
 
 	<!-- items Repos -->
 
@@ -240,7 +260,7 @@
 							<h3><br /><br /></h3>
 						</header>
 						<ul class="actions right">
-							<li><a href="#spotlight1" class="button primary icon solid fa-chevron-up">GO BACK</a></li>
+							<li><a href="#spotlight4" class="button primary icon solid fa-chevron-up">GO BACK</a></li>
 						</ul>
 						<!-- END Go back -->
 					</div>
